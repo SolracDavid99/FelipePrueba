@@ -193,6 +193,72 @@ console.log(tabla_per);
 console.log(`El elemento ${tabla_per[0][0]} tiene como simbolo la letra ${tabla_per[1][0]} y su numero atomico es ${tabla_per[2][0]} `);
 */
 
+/*
 const armando = [[["Manzana","Pina","Sandia"],["Jitomate","Lechuga"],["Gryffindor","Hufflepuff","Slytheryn","Ravenclaw"],["Lentes"]],["Cubone","Rayquaza","Charizard"],[["Sonriente"],["Feliz"],["Triste"],["Sonrojado"],["Entusiasmado"],["Jugueton"]],["Vegetitta","Kokun"]]
 
 console.log(`El ${armando[0][1][0]} color ${armando[1][2]} se ve ${armando[2][0]} porque vio a ${armando[3][0]}`);
+*/
+
+
+// for(var i= 0; i<9 ; i++){
+//     n=0;
+//     n+=i;
+//     console.log(n);
+// }
+
+// var i = 10;
+// i=11;
+
+// for(let i=1; i<3;i++){
+//     console.log(i);
+// }
+
+// console.log(i);
+
+
+//
+//Anidados
+//
+
+// for(let num2 = 0; num2 <=5; num2++ )
+// {
+//     for(let num1 = 4; num1<=5; num1++)
+//     {
+//         console.log(num2 + " " + num1);
+//     }
+// }
+
+//
+//For con aumento en 3
+//
+
+// for(let num2 = 0; num2 <=15; num2+=3 )
+// {
+//     console.log(num2);
+// }
+
+
+// var n=0;
+
+// var x=0;
+
+// while(n<4){
+//     n++;
+//     x += n;
+//     console.log(x);
+// }
+
+
+
+var count =0;
+
+while (count<50)
+{
+    count++;
+
+    for(let i=0; i<25;i++)
+    {
+        console.log(count);
+    }
+
+}
